@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="header">
+        <h1>Welcome, {{ user.username }}!</h1>
+    </div>
+    <div class="content">
+        <p>Thank you for registering on our platform. Please click the link below to confirm your email address and activate your account:</p>
+        <p><a href="{{ confirm_link }}" class="button">Confirm Email</a></p>
+        <p>If the button above doesn't work, copy and paste the following link into your web browser:</p>
+        <p><a href="{{ confirm_link }}">{{ confirm_link }}</a></p>
+    </div>
+    <div class="footer">
+        <p>If you did not create an account, no further action is required.</p>
+    </div>
+    <span>
+        Regards,
+        FlowerShop
+    </span>
+</div>
