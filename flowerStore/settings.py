@@ -32,6 +32,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_ALL_ORIGINS=True
 
 CSRF_TRUSTED_ORIGINS = [
+    'https://flowershopapi-1.onrender.com/',
     'http://127.0.0.1:5500',
     'http://127.0.0.1:8000/',
     
